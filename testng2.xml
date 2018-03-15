@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Firefox test">
+  <parameter name="browsers" value="Firefox" />
+    <classes>
+      <class name="Fieldmarketing.SigninTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Chrome test">
+  <parameter name="browsers" value="Chrome" />
+    <classes>
+      <class name="Fieldmarketing.SigninTest"/>
+    </classes>
+  </test> <!-- Test -->
+ </suite> <!-- Suite -->
